@@ -1,11 +1,10 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class KeyClick : MonoBehaviour
+public class DeleteKey : MonoBehaviour
 {
+    [SerializeField] private UnityEvent deleteLats;
     [SerializeField] private Light light;
-    [SerializeField] private UnityEvent keyPadClicked;
 
     private SpriteRenderer spriteRenderer;
 
@@ -14,17 +13,16 @@ public class KeyClick : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         light.enabled = false;
     }
-
     private void OnMouseDown()
     {
-        keyPadClicked.Invoke();
+        deleteLats.Invoke();
         spriteRenderer.color = Color.yellow;
-        light.enabled = true;
+        light.enabled = true;     
     }
 
     private void OnMouseUp()
     {
         spriteRenderer.color = Color.white;
-        light.enabled = false;
+        light.enabled=false;
     }
 }

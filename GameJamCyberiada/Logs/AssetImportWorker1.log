@@ -1949,3 +1949,63 @@ Memory consumption went from 164.1 MB to 159.7 MB.
 Total: 13.001300 ms (FindLiveObjects: 0.842600 ms CreateObjectMapping: 1.242600 ms MarkObjects: 7.266500 ms  DeleteObjects: 3.648400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3877.320371 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/Sparkle.png
+  artifactKey: Guid(4a0aca3a5f2effb41b43cc0a1661d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/Sparkle.png using Guid(4a0aca3a5f2effb41b43cc0a1661d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e321ba6d98ce539c612fc5cc89f5b439') in 0.4025873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.834641 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
+  artifactKey: Guid(b346b2a2df1d290438be3287b6419408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png using Guid(b346b2a2df1d290438be3287b6419408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7c7f355ccf178f9f9d5c75d389e5c5') in 0.0259526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438430 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
+  artifactKey: Guid(7a0568d5e3330b84687e307992be3030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png using Guid(7a0568d5e3330b84687e307992be3030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b53fd8b7b3add84f4a938d24f129de') in 0.0222799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545941 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+  artifactKey: Guid(127279d577f25ac4ea17dae3782e5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png using Guid(127279d577f25ac4ea17dae3782e5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d9e6232d0127d38c6c1b75ec9471046') in 0.023374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.511800 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aef1b5780e7730518d46eb0d392eb05') in 0.0042957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db197cde3899097fb35a5e04db69c105') in 0.0008586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faab6cc3a0eb7141fe31e2e91fd81ee8') in 0.0012952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
