@@ -53,4 +53,10 @@ public class DrawingWithMouse : MonoBehaviour
         return worldPosition;
     }
 
+    public void deleteLine(Vector3 position)
+    {
+        line.positionCount = 1;
+        line.SetPosition(0, position);
+        previousPosition = position;
+    }
 }

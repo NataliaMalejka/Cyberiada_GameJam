@@ -1,10 +1,13 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Dialogues : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textComponent;
+    [SerializeField] private GameObject image;
     private string[] lines;
     public float textSpeed;
 
@@ -65,6 +68,7 @@ public class Dialogues : MonoBehaviour
         }
         else
         {
+            Destroy(image);
             gameObject.SetActive(false);
         }
     }

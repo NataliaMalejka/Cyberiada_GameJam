@@ -5,9 +5,9 @@ public class ComponentFollowLine : MonoBehaviour
     public DrawingWithMouse drawingControll;
     public float speed = 10f;
 
-    Vector3[] positions;
-    bool startMovement = false;
-    int movementIndex = 0;
+    private Vector3[] positions;
+    private bool startMovement = false;
+    private int movementIndex = 0;
 
     private void OnMouseDown()
     {
@@ -54,5 +54,10 @@ public class ComponentFollowLine : MonoBehaviour
                 startMovement = false;
             }
         }
+    }
+
+    public void setStartMovement()
+    {
+        startMovement = false;
     }
 }
