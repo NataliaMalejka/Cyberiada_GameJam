@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampC
@@ -176,6 +180,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+--- !u!114 &24246438 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 106087707}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &106087707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -184,6 +199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampI
@@ -607,6 +626,17 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &343787743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 1146617262}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &353192045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -680,6 +710,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
+--- !u!114 &449289747 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 1421709858}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &584962717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,6 +729,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampJ
@@ -737,6 +782,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+--- !u!114 &712786323 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 1645886943}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &821093338
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +914,17 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &845080646 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 2077005892}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &949558959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -866,6 +933,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampB
@@ -923,6 +994,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampG
@@ -972,6 +1047,39 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+--- !u!114 &1169861584 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 5780632001187602745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1218444799 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 9281566}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1392454684 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 1744484783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1421709858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -980,6 +1088,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampF
@@ -1029,6 +1141,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+--- !u!114 &1467822316 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 584962717}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1645886943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1037,6 +1160,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampH
@@ -1181,6 +1308,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampE
@@ -1230,6 +1361,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+--- !u!114 &1854852580 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5048241776297870532, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+  m_PrefabInstance: {fileID: 949558959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ee8341275e1ca4d84be947a537cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1956694974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1956694975}
+  - component: {fileID: 1956694976}
   m_Layer: 0
   m_Name: LampManager
   m_TagString: Untagged
@@ -1261,6 +1404,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956694976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956694974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e882fe401bf87b4ab0b3288434910b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lamps:
+  - {fileID: 1169861584}
+  - {fileID: 1854852580}
+  - {fileID: 1218444799}
+  - {fileID: 845080646}
+  - {fileID: 1392454684}
+  - {fileID: 449289747}
+  - {fileID: 343787743}
+  - {fileID: 712786323}
+  - {fileID: 24246438}
+  - {fileID: 1467822316}
 --- !u!1001 &2020448130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1342,6 +1508,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampD
@@ -1476,6 +1646,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1466150451898694779, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2402833805940079000, guid: 73dee24a0a6832845a902138c1b0e670, type: 3}
       propertyPath: m_Name
       value: LampA

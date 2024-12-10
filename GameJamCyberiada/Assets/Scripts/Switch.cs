@@ -4,10 +4,12 @@ public class Switch : MonoBehaviour
 {
     [SerializeField] private int[] lights;
 
+    private LampManager lampManager;
     private SpriteRenderer spriteRenderer;
 
     private void Start()
     {
+        lampManager = FindObjectOfType<LampManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.color = Color.red;
     }
@@ -21,7 +23,9 @@ public class Switch : MonoBehaviour
 
         for (int i = 0; i < lights.Length; i++) 
         {
-
+            lampManager.GetLamp(lights[i]).ChangeLight();
         }
+
+        lampManager.CheckSolution();
     }
 }

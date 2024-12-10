@@ -2,15 +2,31 @@ using UnityEngine;
 
 public class LampManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private LampScript[] lamps;
+    private int lampLitCounter;
+
+    public LampScript GetLamp(int number)
     {
-        
+        return lamps[number];
+        lampLitCounter = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void CheckSolution()
     {
-        
+        lampLitCounter = 0;
+
+        for (int i = 0; i < lamps.Length; i++)
+        {
+            if(lamps[i].getLit())
+            {
+                lampLitCounter++;
+                Debug.Log(lampLitCounter);
+            }
+        }
+
+        if(lampLitCounter == 10)
+        {
+            Debug.Log("you win");
+        }
     }
 }
