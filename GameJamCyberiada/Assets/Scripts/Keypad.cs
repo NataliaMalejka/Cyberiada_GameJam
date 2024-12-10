@@ -1,4 +1,5 @@
 using System.Collections;
+using Assets.Scripts;
 using TMPro;
 using UnityEngine;
 
@@ -36,6 +37,7 @@ public class Keypad : MonoBehaviour
             if (userInput == password)
             {
                 Debug.Log("correct");
+                flaga.maska1 = true;
                 StartCoroutine(wait());
                 gameManager.toHub();
             }

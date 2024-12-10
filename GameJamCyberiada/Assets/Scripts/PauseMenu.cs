@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void WyjdzDoMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         Time.timeScale = 1;
     }
 

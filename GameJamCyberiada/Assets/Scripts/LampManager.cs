@@ -1,4 +1,5 @@
 using System.Collections;
+using Assets.Scripts;
 using UnityEngine;
 
 public class LampManager : MonoBehaviour
@@ -34,6 +35,7 @@ public class LampManager : MonoBehaviour
         if(lampLitCounter == 10)
         {
             Debug.Log("you win");
+            flaga.maska2 = true;
             StartCoroutine(wait());
             gameManager.toHub();
         }

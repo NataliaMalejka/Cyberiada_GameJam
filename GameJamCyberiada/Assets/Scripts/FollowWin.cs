@@ -1,4 +1,5 @@
 using System.Collections;
+using Assets.Scripts;
 using UnityEngine;
 
 public class FollowWin : MonoBehaviour
@@ -14,6 +15,7 @@ public class FollowWin : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            flaga.maska3 = true;
             StartCoroutine(wait());
             gameManager.toHub();
         }

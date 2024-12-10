@@ -10,6 +10,12 @@ public class Dialogues : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textComponent;
     [SerializeField] private GameObject image;
     [SerializeField] GameObject canva;
+    [SerializeField] GameObject Obmaska1;
+    [SerializeField] GameObject Obmaska2;
+    [SerializeField] GameObject Obmaska3;
+    [SerializeField] GameObject Obkey;
+    [SerializeField] GameObject Obkod;
+    [SerializeField] GameObject Obkot;
     private string[] lines;
     public float textSpeed;
 
@@ -19,6 +25,22 @@ public class Dialogues : MonoBehaviour
 
     void Start()
     {
+        if (flaga.maska1 == true)
+        {
+            Obmaska1.SetActive(true);
+        }
+        if (flaga.maska2 == true)
+        {
+            Obmaska2.SetActive(true);
+        }
+        if (flaga.maska3 == true)
+        {
+            Obmaska3.SetActive(true);
+        }
+        if (flaga.maska1 == true && flaga.maska2 == true && flaga.maska3 == true)
+        {
+
+        }
         gameManager = FindObjectOfType<GameManager>();
         if (flaga.flagadialog == true)
         {
@@ -39,7 +61,8 @@ public class Dialogues : MonoBehaviour
 
     void Update()
     {
-       
+        if (!flaga.flagadialog == true)
+        {
             if (Input.GetMouseButtonDown(0))
             {
                 if (textComponent.text == lines[index])
@@ -52,6 +75,7 @@ public class Dialogues : MonoBehaviour
                     textComponent.text = lines[index];
                 }
             }
+        }
         
     }
 
@@ -88,6 +112,9 @@ public class Dialogues : MonoBehaviour
         else
         {
             canva.SetActive(false);
+            Obkey.SetActive(true);
+            Obkod.SetActive(true);
+            Obkot.SetActive(true);
         }
     }
 }
