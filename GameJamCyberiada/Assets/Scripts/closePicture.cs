@@ -10,9 +10,8 @@ public class closePicture : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (picture.activeSelf==true)
-        {
+       
             picture.SetActive(false);
-        }
+
     }
 }

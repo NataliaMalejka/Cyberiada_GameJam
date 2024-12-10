@@ -9,20 +9,13 @@ public class OpenPicture : MonoBehaviour
 
     private void Start()
     {
-        isActive = false;
     }
 
     private void OnMouseDown()
     {
-        if (isActive)
-        {
-            picture.SetActive(false);
-            isActive = false;
-        }
-        else
-        {
+
             picture.SetActive(true);
             isActive = true;
-        }
+
     }
 }
