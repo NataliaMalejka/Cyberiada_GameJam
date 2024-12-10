@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Machine.unity
     guid: 98ff6f611c903e645943182018f0635e
+  - enabled: 1
+    path: Assets/Scenes/KeyPad.unity
+    guid: 96945c990cb202b41889611af488da3a
+  - enabled: 1
+    path: Assets/Scenes/FollowLine.unity
+    guid: f553e0d041c992145855e960f7461e80
+  - enabled: 1
+    path: Assets/Scenes/SwitchLights.unity
+    guid: d01263db74dba554cad6f9b1010df7e1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

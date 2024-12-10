@@ -300,10 +300,9 @@ GameObject:
   - component: {fileID: 270162027}
   - component: {fileID: 270162026}
   - component: {fileID: 270162025}
-  - component: {fileID: 270162024}
-  - component: {fileID: 270162023}
   - component: {fileID: 270162022}
   - component: {fileID: 270162028}
+  - component: {fileID: 270162029}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -418,34 +417,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &270162023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270162021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668a4e164ec49b04a97e43ec2db82e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  drawingControll: {fileID: 270162024}
-  speed: 10
---- !u!114 &270162024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270162021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4958b0b8ab117c439104bb915f62c06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  line: {fileID: 270162022}
-  minDistance: 0.1
 --- !u!65 &270162025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -564,6 +535,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &270162029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270162021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009a096e9ea9f694c8fafd3de14a5bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 3
 --- !u!1001 &307010354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -751,7 +735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!120 &435369979
 LineRenderer:
   serializedVersion: 2
@@ -1382,9 +1366,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 0}
-  startGame: {fileID: 0}
-  collectCoin: {fileID: 0}
-  addBullet: {fileID: 0}
+  mainMenuMusic: {fileID: 0}
+  buttonClick: {fileID: 0}
+  keyPadButtons: {fileID: 0}
+  connectCable: {fileID: 0}
+  errorSounds: {fileID: 0}
 --- !u!81 &1265397033
 AudioListener:
   m_ObjectHideFlags: 0
