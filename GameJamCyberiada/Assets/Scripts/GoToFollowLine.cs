@@ -12,6 +12,5 @@ public class GoToFollowLine : MonoBehaviour
     private void OnMouseDown()
     {
         gameManager.toFollowLine();
-        Debug.Log("toFollowLine");
     }
 }

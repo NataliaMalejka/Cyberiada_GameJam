@@ -12,7 +12,6 @@ public class GoToKeyPad : MonoBehaviour
     private void OnMouseDown()
     {
         gameManager.toKeypad();
-        Debug.Log("toKeyPad");
     }
 
 

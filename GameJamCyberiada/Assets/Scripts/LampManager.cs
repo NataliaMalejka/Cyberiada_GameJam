@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class LampManager : MonoBehaviour
@@ -5,6 +6,12 @@ public class LampManager : MonoBehaviour
     [SerializeField] private LampScript[] lamps;
     private int lampLitCounter;
 
+    private GameManager gameManager;
+
+    private void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
     public LampScript GetLamp(int number)
     {
         return lamps[number];
@@ -27,6 +34,8 @@ public class LampManager : MonoBehaviour
         if(lampLitCounter == 10)
         {
             Debug.Log("you win");
+            StartCoroutine(wait());
+            gameManager.toHub();
         }
     }
 
@@ -34,5 +43,10 @@ public class LampManager : MonoBehaviour
     {
         lampLitCounter = 0;
         Debug.Log(lampLitCounter);
+    }
+
+    private IEnumerator wait()
+    {
+        yield return new WaitForSeconds(5);
     }
 }

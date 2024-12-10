@@ -22,10 +22,10 @@ public class SoundsManager : MonoBehaviour
     }
     private void Awake()
     {
-        if (GameObject.FindGameObjectsWithTag("SoundsManager").Length > 1)
-        {
-            Destroy(this.gameObject);
-        }
+        //if (GameObject.FindGameObjectsWithTag("SoundsManager").Length > 1)
+        //{
+        //    Destroy(this.gameObject);
+        //}
     }
 
     private void Start()
@@ -33,7 +33,7 @@ public class SoundsManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         DontDestroyOnLoad(this.gameObject);
 
-        audioSource.Play();
+        //audioSource.Play();
     }
 
     public void PlaySounds(Sounds sounds)

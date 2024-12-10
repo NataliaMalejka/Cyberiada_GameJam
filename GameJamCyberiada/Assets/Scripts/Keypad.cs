@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -6,10 +7,12 @@ public class Keypad : MonoBehaviour
     [SerializeField] private string password;
     [SerializeField] private TextMeshPro screentext;
 
-    private string userInput;
+    private GameManager gameManager;
 
+    private string userInput;
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         userInput = "";
         UpdateScreeText();
     }
@@ -33,6 +36,8 @@ public class Keypad : MonoBehaviour
             if (userInput == password)
             {
                 Debug.Log("correct");
+                StartCoroutine(wait());
+                gameManager.toHub();
             }
             else
             {
@@ -57,5 +62,11 @@ public class Keypad : MonoBehaviour
     private void UpdateScreeText()
     {
         screentext.text = userInput;
+    }
+
+    IEnumerator wait()
+    {
+        Debug.Log("wait");
+        yield return new WaitForSeconds(5);
     }
 }

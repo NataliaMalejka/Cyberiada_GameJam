@@ -11,6 +11,5 @@ public class GoToLights : MonoBehaviour
     private void OnMouseDown()
     {
         gameManager.toLights();
-        Debug.Log("toLights");
     }
 }
