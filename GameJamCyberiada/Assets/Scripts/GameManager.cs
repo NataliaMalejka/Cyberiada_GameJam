@@ -8,18 +8,30 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private GameObject image;
 
-    private Dialogues dialogues;
+    private bool deleteDialogue = false;
 
     private void Awake()
     {
-        dialogues = FindObjectOfType<Dialogues>();
-
-        if(SceneManager.GetActiveScene().buildIndex == 1 && dialogues.getDeleteDialogue())
+        if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1)
         {
-            Destroy(image);
-            panel.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
+
+    private void Start()
+    {
+        DontDestroyOnLoad(this.gameObject);
+
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            if (deleteDialogue)
+            {
+                Destroy(image);
+                panel.SetActive(false);
+            }
+        }
+    }
+
     public void toFollowLine()
     {
         SceneManager.LoadScene(3);
@@ -41,5 +53,10 @@ public class GameManager : MonoBehaviour
         //yield return new WaitForSeconds(5);
         Debug.Log("end wait");
         SceneManager.LoadScene(1);
+    }
+
+    public void setDeleteDialogue()
+    {
+        deleteDialogue = true;
     }
 }

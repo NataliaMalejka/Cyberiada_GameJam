@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void WyjdzDoMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
 
@@ -42,5 +42,10 @@ public class PauseMenu : MonoBehaviour
     public void UstawFullScreen(bool CzyFullscreen)
     {
         Screen.fullScreen = CzyFullscreen;
+    }
+    public void Powtorz()
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
 }
