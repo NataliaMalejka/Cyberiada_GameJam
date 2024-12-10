@@ -12,13 +12,5 @@ public class WSADmoving : MonoBehaviour
 
         if(horizontalInput != 0)
             transform.localScale = new Vector3(4 * horizontalInput, 4, 1);
-
-
-        //verticalInput = Input.GetAxis("Vertical");
-
-        //transform.Translate(velocity, verticalInput * upVelocity * Time.deltaTime, 0);
-
-        //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-
     }
 }
