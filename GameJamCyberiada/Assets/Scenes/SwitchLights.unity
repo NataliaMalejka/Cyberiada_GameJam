@@ -351,6 +351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Switch2
       objectReference: {fileID: 0}
+    - target: {fileID: 2702876800758286980, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5135643800643688420, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -423,6 +427,10 @@ PrefabInstance:
     - target: {fileID: 1013515002155009739, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_Name
       value: Switch5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702876800758286980, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135643800643688420, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -648,6 +656,10 @@ PrefabInstance:
     - target: {fileID: 1013515002155009739, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_Name
       value: Switch4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702876800758286980, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135643800643688420, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1579,6 +1591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Switch3
       objectReference: {fileID: 0}
+    - target: {fileID: 2702876800758286980, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5135643800643688420, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1712,6 +1728,10 @@ PrefabInstance:
     - target: {fileID: 1013515002155009739, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_Name
       value: Switch1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702876800758286980, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135643800643688420, guid: 1ee71eae810a89f44a6b5798ffdaed7b, type: 3}
       propertyPath: m_LocalPosition.x
