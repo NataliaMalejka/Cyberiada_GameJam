@@ -28,4 +28,9 @@ public class Switch : MonoBehaviour
 
         lampManager.CheckSolution();
     }
+
+    public void turnOffSwitch()
+    {
+        spriteRenderer.color = Color.red;
+    }
 }

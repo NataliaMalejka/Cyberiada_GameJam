@@ -8,7 +8,7 @@ public class LampManager : MonoBehaviour
     public LampScript GetLamp(int number)
     {
         return lamps[number];
-        lampLitCounter = 0;
+        //lampLitCounter = 0;
     }
 
     public void CheckSolution()
@@ -28,5 +28,11 @@ public class LampManager : MonoBehaviour
         {
             Debug.Log("you win");
         }
+    }
+
+    public void RestartLit()
+    {
+        lampLitCounter = 0;
+        Debug.Log(lampLitCounter);
     }
 }

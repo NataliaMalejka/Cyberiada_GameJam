@@ -30,4 +30,10 @@ public class LampScript : MonoBehaviour
     {
         return lit;
     }
+
+    public void trunOff()
+    {
+        spriteRenderer.color = Color.grey;
+        lit = false;
+    }
 }
