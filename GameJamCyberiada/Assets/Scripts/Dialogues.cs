@@ -11,10 +11,12 @@ public class Dialogues : MonoBehaviour
     private string[] lines;
     public float textSpeed;
 
+    private bool deleteDialogue;
     private int index;
 
     void Start()
     {
+        deleteDialogue = false;
         lines = new string[7];
         lines[0] = "Ah, widzê ze uda³o Ci siê dotrzeæ w jednym kawa³ku\nblachy...Œwietnie!";
         lines[1] = "Potrzebujê twojej pomocy.";
@@ -69,7 +71,13 @@ public class Dialogues : MonoBehaviour
         else
         {
             Destroy(image);
+            deleteDialogue = true;
             gameObject.SetActive(false);
         }
+    }
+
+    public bool getDeleteDialogue()
+    {
+        return deleteDialogue;
     }
 }
